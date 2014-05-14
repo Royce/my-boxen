@@ -59,3 +59,31 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "property_list_key", "~>0.1.0"
+github "osx", "~>1.6.1"
+
+# My deps...
+
+# Languages
+github "clojure", "1.2.0"
+  github "java", "1.1.2"
+
+# Apps
+github "quicksilver", "1.1"
+github "sublime_text_2", "1.1.2"
+github "sourcetree", "1.0"
+github "chrome", "1.1.2"
+github "firefox", "1.1.4"
+github "iterm2", "1.0.3"
+github "graphviz", "1.0"
+  github "pkgconfig", "1.0.0"
+  github "swig", "1.0.0"
+    github "pcre", "~>1.0"
+github "dropbox", "1.1.2"
+github "arq", "1.0"
+github "vlc", "1.0.5"
+github "cyberduck", "1.0.1"
+github "onepassword", "1.0.2"
+github "evernote", "2.0.4"
+github "notational_velocity", "1.1.1"

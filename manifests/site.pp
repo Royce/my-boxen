@@ -75,6 +75,9 @@ node default {
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
+  # clojure
+  #include clojure
+
   # common, useful packages
   package {
     [
