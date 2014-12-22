@@ -61,7 +61,7 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "property_list_key", "~>0.1.0"
-github "osx", "~>1.6.1"
+github "osx", "~>2.8.0"
 
 # My deps...
 
