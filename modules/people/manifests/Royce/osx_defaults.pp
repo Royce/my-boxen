@@ -22,7 +22,7 @@ class people::royce::osx_defaults {
     domain => 'com.apple.screencapture',
     key    => 'location',
     type   => 'string',
-    value  => '/Users/${::luser}/Dropbox/ScreenCapture',
+    value  => '/Users/${::luser}/Dropbox/Screenshots',
     user   => $::boxen_user;
   }
   boxen::osx_defaults { 'Save screenshots in PNG format':
