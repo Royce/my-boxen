@@ -159,9 +159,9 @@ GITHUBTARBALL
     sourcetree (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sublime_text_2
+  remote: boxen/puppet-sublime_text
   specs:
-    sublime_text_2 (1.1.2)
+    sublime_text (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -235,7 +235,7 @@ DEPENDENCIES
   ruby (= 8.1.7)
   sourcetree (= 1.0)
   stdlib (= 4.2.1)
-  sublime_text_2 (= 1.1.2)
+  sublime_text (= 1.1.0)
   sudo (= 1.0.0)
   swig (= 1.0.0)
   vlc (= 1.0.5)

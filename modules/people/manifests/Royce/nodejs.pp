@@ -7,5 +7,6 @@ class people::royce::nodejs {
     nodejs::module { 'generator-knockout': node_version => 'v0.10' }
     nodejs::module { 'generator-angular': node_version => 'v0.10' }
     nodejs::module { 'generator-aspnet': node_version => 'v0.10' }
+    nodejs::module { 'generator-nancy': node_version => 'v0.10' }
   nodejs::module { 'bower': node_version => 'v0.10' }
  }
