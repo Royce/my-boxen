@@ -71,7 +71,7 @@ github "clojure", "1.3.0"
 
 # Apps
 github "quicksilver", "1.1"
-github "sublime_text_2", "1.1.2"
+github "sublime_text", "1.1.0"
 github "sourcetree", "1.0"
 github "chrome", "1.1.2"
 github "firefox", "1.1.4"
