@@ -66,8 +66,8 @@ github "osx", "~>2.8.0"
 # My deps...
 
 # Languages
-github "clojure", "1.2.0"
-  github "java", "1.1.2"
+github "clojure", "1.3.0"
+  github "java", "1.7.1"
 
 # Apps
 github "quicksilver", "1.1"
