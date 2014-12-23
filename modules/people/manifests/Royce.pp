@@ -5,4 +5,5 @@ class people::royce {
   include people::royce::osx_defaults
   include people::royce::security
   include people::royce::nodejs
+  include people::royce::repositories
 }
