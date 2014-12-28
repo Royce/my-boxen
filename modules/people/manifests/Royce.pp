@@ -6,4 +6,5 @@ class people::royce {
   include people::royce::security
   include people::royce::nodejs
   include people::royce::repositories
+  include people::royce::aspnet
 }
