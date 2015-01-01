@@ -38,12 +38,4 @@ class people::royce::repositories (
   repository { "${my_sourcedir}/roycetownsend.com":
     source => 'Royce/roycetownsend.com',
   }
-
-  ## TODO .dotfile
-  # file { "/Users/${my_username}/.vimrc":
-  #   ensure => link,
-  #   mode   => '0644',
-  #   target => "${my_sourcedir}/dotfiles/vimrc",
-  #   require => Repository["${my_sourcedir}/dotfiles"],
-  # }
 }
