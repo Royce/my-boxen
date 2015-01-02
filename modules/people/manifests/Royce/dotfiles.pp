@@ -1,4 +1,4 @@
-class people::royce::repositories (
+class people::royce::dotfiles (
   $my_sourcedir = $people::royce::params::my_sourcedir,
   $my_homedir   = $people::royce::params::my_homedir
 ) {
