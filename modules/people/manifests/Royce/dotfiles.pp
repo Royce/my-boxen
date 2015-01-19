@@ -37,6 +37,7 @@ class people::royce::dotfiles (
   $profile_scripts = [
     'bash_history.sh',
     'bash_prompt.sh',
+    'docker.sh',
     'cd_improvements.sh',
     'completion_ssh.sh',
     'kvm.sh'
