@@ -40,10 +40,15 @@ class people::royce::dotfiles (
     'docker.sh',
     'cd_improvements.sh',
     'completion_ssh.sh',
-    'kvm.sh'
+    'kvm.sh',
+    'z.sh'
   ]
   symlink_profile_scripts { $profile_scripts:
     homedir => $my_homedir,
     dotfiles => $dotfiles,
+  }
+
+  repository { "${my_sourcedir}/z":
+    source  => 'rupa/z',
   }
 }
